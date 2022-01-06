@@ -22,6 +22,8 @@ added **ticket-entry-point** folder
 contains **ticket-entry-point.mdoule** which is a submodule of app  
 delegates all logic within that module 
 
+https://github.com/Erwin-Feld/ticket-maestro/tree/generating-submodule-ticket-entry-point
+
 
 ---------------------------------------------------------------
 
