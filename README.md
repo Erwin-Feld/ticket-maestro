@@ -12,8 +12,20 @@ project features and functionality based on https://angular.io/tutorial
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
-### concepts
+---------------------------------------------------------------
 
+## concepts
+
+### submodule
+
+added **ticket-entry-point** folder
+contains **ticket-entry-point.mdoule** which is a submodule of app  
+delegates all logic within that module 
+
+https://github.com/Erwin-Feld/ticket-maestro/tree/generating-submodule-ticket-entry-point
+
+
+---------------------------------------------------------------
 
 
 ## Development server
