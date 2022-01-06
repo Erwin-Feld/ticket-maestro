@@ -31,7 +31,7 @@ added to **ticket-entry-point** folder
 **ticket-entry-point.component** which is a parent component which will hold 
 all component children within that folder
 
-
+https://github.com/Erwin-Feld/ticket-maestro/tree/generate-parent-sub-component-in-ticket-entry-point
 
 ---------------------------------------------------------------
 
