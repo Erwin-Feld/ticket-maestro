@@ -1,4 +1,4 @@
-# TicketMaestro
+# Ticket Maestro
 
 Ui for a Ticketsystem
 
