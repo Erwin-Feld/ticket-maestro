@@ -1,6 +1,20 @@
 # TicketMaestro
 
+Ui for a Ticketsystem
+
+Receaving Tickets
+
+Adding a ticket
+
+Managing tickets
+
+project features and functionality based on https://angular.io/tutorial
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+
+### concepts
+
+
 
 ## Development server
 
