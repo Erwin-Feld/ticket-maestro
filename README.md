@@ -24,9 +24,16 @@ delegates all logic within that module
 
 https://github.com/Erwin-Feld/ticket-maestro/tree/generating-submodule-ticket-entry-point
 
+---------------------------------------------------------------
+### submodule parent component
+
+added to **ticket-entry-point** folder
+**ticket-entry-point.component** which is a parent component which will hold 
+all component children within that folder
+
+
 
 ---------------------------------------------------------------
-
 
 ## Development server
 
