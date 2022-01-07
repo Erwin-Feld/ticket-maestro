@@ -48,6 +48,8 @@ https://github.com/Erwin-Feld/ticket-maestro/tree/creating-and-using-a-paren-com
 --> added `incoming-tickets` directory inside `ticket-entry point`
 contains `incoming-tickets.component` which hold the logic to display all incoming tickets
 
+https://github.com/Erwin-Feld/ticket-maestro/tree/logic-seperation-with-child-components
+
 
 ---------------------------------------------------------------
 
