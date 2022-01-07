@@ -23,9 +23,9 @@ every angular project has a root module in `app`
 submodules are seperate containers which hold there own logic 
 all submodules need to be imported to the root module 
 
---> added **ticket-entry-point** folder 
-------> contains **ticket-entry-point.mdoule** which is a submodule of app  
-----------> delegates all logic within that module 
+--> added `ticket-entry-point` directory 
+contains `ticket-entry-point.mdoule` which is a submodule of app  
+delegates all logic within that module 
 
 https://github.com/Erwin-Feld/ticket-maestro/tree/generating-and-using-a-submodule
 
