@@ -16,16 +16,38 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## concepts
 
-### submodule
+### modules and submodules
 
-added **ticket-entry-point** folder
-contains **ticket-entry-point.mdoule** which is a submodule of app  
+a module in angular are containers for a cohesive block of code dedicated to an application task
+every angular project has a root module in `app`
+submodules are seperate containers which hold there own logic 
+all submodules need to be imported to the root module 
+
+--> added `ticket-entry-point` directory 
+contains `ticket-entry-point.mdoule` which is a submodule of app  
 delegates all logic within that module 
 
-https://github.com/Erwin-Feld/ticket-maestro/tree/generating-submodule-ticket-entry-point
+https://github.com/Erwin-Feld/ticket-maestro/tree/generating-and-using-a-submodule
 
 
 ---------------------------------------------------------------
+### components and subcomponents
+
+Components are seperate logic blocks connected to the DOM
+
+logic used in this app is to have with each submodel a parent component which contains all child components
+
+contains `ticket-entry-point.component` which is acts as a parent component all functionality (child-components) are added to the parent
+and exported to the root component 
+
+https://github.com/Erwin-Feld/ticket-maestro/tree/creating-and-using-a-paren-component
+
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+
+
 
 
 ## Development server
