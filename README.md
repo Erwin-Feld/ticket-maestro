@@ -68,6 +68,8 @@ creates for each element of the data a new list item
 
 to distinguish and display the methods better the Angular lenguage service addon is very helpfull 
 
+https://github.com/Erwin-Feld/ticket-maestro/tree/using-mock-data-and-for-loops
+
 ---------------------------------------------------------------
 
 ## Development server
