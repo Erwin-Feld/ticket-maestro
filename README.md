@@ -40,8 +40,8 @@ logic used in this app is to have with each submodel a parent component which co
 contains `ticket-entry-point.component` which is acts as a parent component all functionality (child-components) are added to the parent
 and exported to the root component 
 
-
 https://github.com/Erwin-Feld/ticket-maestro/tree/creating-and-using-a-paren-component
+
 ---------------------------------------------------------------
 
 
