@@ -85,6 +85,19 @@ using the comp the data is loaded with
 
 https://github.com/Erwin-Feld/ticket-maestro/tree/passing-props-with-child-component
 
+
+
+#### services and Observable
+service
+
+Observable
+
+of
+
+subscribe
+
+
+
 ---------------------------------------------------------------
 
 ## Development server
