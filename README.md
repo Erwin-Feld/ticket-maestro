@@ -83,7 +83,7 @@ passing props are used
 using the comp the data is loaded with 
 ` <app-ticket [ticketValues]="ticket"></app-ticket> `
 
-
+https://github.com/Erwin-Feld/ticket-maestro/tree/passing-props-with-child-component
 
 ---------------------------------------------------------------
 
