@@ -1,8 +1,11 @@
 <div>
     <h3>incoming tickets</h3>
     <ul>
-        <li><span>ID({{incomingTickets.id}})</span>--Text:{{incomingTickets.text}}</li>
+        <li *ngFor="let ticket of incomingTickets">
+        <span>ID({{ticket.id}})</span>--Text:{{ticket.text}}</li>
     </ul>
 </div>
+
+
 
 

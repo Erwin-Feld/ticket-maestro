@@ -53,8 +53,24 @@ https://github.com/Erwin-Feld/ticket-maestro/tree/logic-seperation-with-child-co
 
 ---------------------------------------------------------------
 
+### using mock data and ng for loop to display it
 
+#### mock data
+for better logic seperation mock data is used from a seperate directory which is displayed in the component
+--> added mockdata directory `mock-data` contains `mock-tickets.json`
+used as mock data. to be able to import json objects 
+`allowSyntheticDefaultImports` and `resolveJsonModule` needs to be added and set to `true`
 
+#### for loops
+ angular has build in methods to display iterable data directly in the html file --> with `*ngFor` 
+` <li *ngFor="let ticket of incomingTickets">`
+creates for each element of the data a new list item
+
+to distinguish and display the methods better the Angular lenguage service addon is very helpfull 
+
+https://github.com/Erwin-Feld/ticket-maestro/tree/using-mock-data-and-for-loops
+
+---------------------------------------------------------------
 
 ## Development server
 

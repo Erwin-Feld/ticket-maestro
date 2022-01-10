@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { TicketData } from '../interfaces/ticket-data.interface';
+import mockTicketData from '../mock-data/mock-tickets.json'
+
+
 
 @Component({
   selector: 'app-incoming-tickets',
@@ -8,8 +11,7 @@ import { TicketData } from '../interfaces/ticket-data.interface';
 })
 export class IncomingTicketsComponent implements OnInit {
 
-  incomingTickets: TicketData =  {id: 1, text: "connection issues, pls help"}
-
+  incomingTickets: TicketData[] = mockTicketData 
   constructor() { }
 
   ngOnInit(): void {
