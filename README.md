@@ -70,6 +70,21 @@ to distinguish and display the methods better the Angular lenguage service addon
 
 https://github.com/Erwin-Feld/ticket-maestro/tree/using-mock-data-and-for-loops
 
+
+#### passing props with child components
+
+logic: child component which displays data 
+
+another comp used to display the data, the other comp can be re-used again
+to display the data from the initial child comp with the other comp
+passing props are used 
+`@Input() ticketValues!: TicketData;`
+
+using the comp the data is loaded with 
+` <app-ticket [ticketValues]="ticket"></app-ticket> `
+
+
+
 ---------------------------------------------------------------
 
 ## Development server

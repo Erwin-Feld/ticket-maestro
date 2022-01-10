@@ -1,8 +1,9 @@
 <div>
-    <h3>incoming tickets</h3>
+    <h3>child comp incoming tickets</h3>
     <ul>
         <li *ngFor="let ticket of incomingTickets">
-        <span>ID({{ticket.id}})</span>--Text:{{ticket.text}}</li>
+            <app-ticket [ticketValues]="ticket"></app-ticket>
+        <!-- <span>ID({{ticket.id}})</span>--Text:{{ticket.text}}</li> -->
     </ul>
 </div>
 
