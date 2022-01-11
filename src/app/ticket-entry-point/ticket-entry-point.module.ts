@@ -10,7 +10,7 @@ import { TicketComponent } from './ticket/ticket.component';
   declarations: [
     TicketEntryPointComponent,
     IncomingTicketsComponent,
-    TicketComponent
+    TicketComponent,
   ],
   imports: [
     CommonModule

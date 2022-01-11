@@ -88,15 +88,14 @@ https://github.com/Erwin-Feld/ticket-maestro/tree/passing-props-with-child-compo
 
 
 #### services and Observable
-service
 
-Observable
+created a service `message.service` which provides ticketdata to all components
 
-of
+provides an Observable which is mockData
 
-subscribe
+components are subscribing to the service to get data 
 
-
+message.service displays if the data is successfully distributed 
 
 ---------------------------------------------------------------
 

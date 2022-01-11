@@ -24,7 +24,9 @@ export class IncomingTicketsComponent implements OnInit {
 
   getTicketData():void {
     this.ticketDistributorService.getTicketData().
-                          subscribe(receaveTickets => this.receaveTickets = receaveTickets)
+                          subscribe(fetchData => this.receaveTickets = fetchData)
   }
 
 }
+
+
