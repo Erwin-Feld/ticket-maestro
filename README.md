@@ -85,6 +85,20 @@ using the comp the data is loaded with
 
 https://github.com/Erwin-Feld/ticket-maestro/tree/passing-props-with-child-component
 
+
+
+#### services and Observable
+
+created a service `message.service` which provides ticketdata to all components
+
+provides an Observable which is mockData
+
+components are subscribing to the service to get data 
+
+message.service displays if the data is successfully distributed 
+
+https://github.com/Erwin-Feld/ticket-maestro/tree/add-service-and-observe-data-
+
 ---------------------------------------------------------------
 
 ## Development server
