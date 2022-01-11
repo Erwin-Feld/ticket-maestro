@@ -97,6 +97,8 @@ components are subscribing to the service to get data
 
 message.service displays if the data is successfully distributed 
 
+https://github.com/Erwin-Feld/ticket-maestro/tree/add-service-and-observe-data-
+
 ---------------------------------------------------------------
 
 ## Development server
